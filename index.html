@@ -17,10 +17,10 @@
             </div>
             <nav class="header__nav-list">
                 <a class="header__link col-lg-4" href="#">Home</a>
-                <a class="header__link col-lg-4" href="#">Services</a>
-                <a class="header__link col-lg-4" href="#">Portfolio</a>
-                <a class="header__link col-lg-4" href="#">About</a>
-                <a class="header__link col-lg-4" href="#">Contact</a>
+                <a class="header__link col-lg-4" href="#services">Services</a>
+                <a class="header__link col-lg-4" href="#portfolio">Portfolio</a>
+                <a class="header__link col-lg-4" href="#about">About</a>
+                <a class="header__link col-lg-4" href="#contacts">Contact</a>
             </nav>
         </div>
     <div class="header__info d-flex flex-column align-items-center">
@@ -30,41 +30,41 @@
     </div>
     </div>
 </header>
-<section class="services">
+<section class="services" id="services" >
     <div class="services__container container d-flex flex-column align-items-center">
         <h2 class="services__title">Services</h2>
         <p class="services__description">Lorem ipsum dolor sit amet consectetur.</p>
         <div class="services__blog d-flex align-items-center">
-            <div class="services__items col-lg-4">
-                <i class="services__icon fas fa-cart-arrow-down"></i>
+            <div class="services__items col-lg-4 d-flex flex-column align-items-center">
+                <i class="d-flex justify-content-center align-items-center services__icon fas fa-cart-arrow-down"></i>
                 <h3 class="services__title-items">E-Commerce</h3>
-                <p class="services__description-items">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                <p class="services__description-items text-center">Lorem ipsum, dolor sit amet consectetur adipisicing 
                 elit. Quasi similique, incidunt iste obcaecati hic dolores.
                 </p>
             </div>
-            <div class="services__items col-lg-4">
-                <i class="fas fa-check-square"></i>
+            <div class="services__items col-lg-4 d-flex flex-column align-items-center">
+                <i class="d-flex justify-content-center align-items-center services__icon fas fa-check-square"></i>
                 <h3 class="services__title-items"> Marketing Tools</h3>
-                <p class="services__description-items">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                <p class="services__description-items text-center">Lorem ipsum, dolor sit amet consectetur adipisicing 
                 elit. Quasi similique, incidunt iste obcaecati hic dolores.
                 </p>
             </div>
-            <div class="services__items col-lg-4">
-                <i class="fas fa-address-card"></i>
+            <div class="services__items col-lg-4 d-flex flex-column align-items-center">
+                <i class="d-flex justify-content-center align-items-center services__icon fas fa-address-card"></i>
                 <h3 class="services__title-items">Responsive Web</h3>
-                <p class="services__description-items">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                <p class="services__description-items text-center">Lorem ipsum, dolor sit amet consectetur adipisicing 
                 elit. Quasi similique, incidunt iste obcaecati hic dolores.
                 </p>
             </div>
         </div>
     </div>
 </section>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
    <div class='portfolio__container container d-flex flex-column align-items-center'>
     <h2 class="portfolio__title">our portfolio</h2>
     <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur.</p>
         <div class="portfolio__info d-flex flex-wrap">
-            <div class="d-flex flex-column align-items-center col-lg-4 ">
+            <div class="portfolio__img-container d-flex flex-column align-items-center col-lg-4 ">
                 <img class="portfolio__img" src="img/2.png"/>
                 <h3 class="portfolio__img-title">Ebony & Ivory</h3>
                 <p class="portfolio__img-description">Branding</p>
@@ -97,13 +97,13 @@
         </div>
    </div>
 </section>
-<section class="about">
+<section class="about" id="about">
     <div class="about__container container d-flex flex-column align-items-center">
         <h2 class="about__title">About US</h2>
         <p class="about__description">Lorem ipsum dolor sit amet consectetur.</p>
         <div class="about__blogs d-flex flex-column justify-content-center">
             <div class="about__blogs-items d-flex  align-items-center text-right">
-                <div class="about__blogs-text col-lg-4">
+                <div class="about__blogs-text col-lg-5">
                     <h3 class="about__blogs-title">Lorem ipsum dolor sit amet.</h3>
                     <p class="about__blogs-description">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Eveniet quasi totam molestiae ullam commodi
@@ -111,44 +111,112 @@
                          magni ducimus consequatur.
                     </p>
                 </div>
-                <img src="img/8.png" />
+                 <img src="img/8.png" />
             </div>
             <div class="about__blogs-items d-flex  flex-row-reverse align-items-center ">
-                <div class="about__blogs-text col-lg-4">
+                <div class="about__blogs-text col-lg-5 flex-row-reverse">
                     <h3 class="about__blogs-title">Lorem ipsum dolor sit amet.</h3>
                     <p class="about__blogs-description">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Eveniet quasi totam molestiae ullam commodi
                             deserunt dolorum officiis quas delectus distinctio aspernatur sint, 
                             magni ducimus consequatur.
-                    </p>
+                    </p> 
                 </div>
                 <img src="img/9.png" />
+               
             </div>
-            <div class="about__blogs-items d-flex  align-items-cente text-right ">
-                <div class="about__blogs-text col-lg-4">
+            <div class="about__blogs-items d-flex  align-items-center text-right ">
+                <div class="about__blogs-text  col-lg-5">
                     <h3 class="about__blogs-title">Lorem ipsum dolor sit amet.</h3>
                     <p class="about__blogs-description">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Eveniet quasi totam molestiae ullam commodi
-                            deserunt dolorum officiis quas delectus distinctio aspernatur sint, 
-                            magni ducimus consequatur.
-                    </p>
+                        deserunt dolorum officiis quas delectus distinctio aspernatur sint, 
+                        magni ducimus consequatur.
+                    </p>  
                 </div>
-                <img src="img/10.png" />
+                 <img src="img/10.png" />
             </div>
             <div class="about__blogs-items d-flex  flex-row-reverse align-items-center ">
-                <div class="about__blogs-text col-lg-4">
+                <div class="about__blogs-text flex-row-reverse col-lg-5">
                     <h3 class="about__blogs-title">Lorem ipsum dolor sit amet.</h3>
                     <p class="about__blogs-description">Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Eveniet quasi totam molestiae ullam commodi
-                            deserunt dolorum officiis quas delectus distinctio aspernatur sint, 
-                            magni ducimus consequatur.
+                        deserunt dolorum officiis quas delectus distinctio aspernatur sint, 
+                        magni ducimus consequatur.
                     </p>
+                    
                 </div>
                 <img src="img/11.png" />
             </div>
         </div>
     </div>
 </section>
+<section class="team" id="team">
+    <div class="team__container container d-flex flex-column align-items-center">
+        <h2 class="team__title">Our amazing team</h2>
+        <p class="team__description">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="team__blogs d-flex   ">
+            <div class="team__items  text-center col-lg-4">
+                <img class="team__img"  src="img/12.png"/>
+                <h3 class="team__items-title">Kimberly Thompson</h3>
+                <p class="team__description">Marketer</p>
+                <div class="team__icon-list d-flex align-items-center justify-content-center">
+                    <i class="team__icon-twiiter"></i>
+                    <i class="team__icon-facebook"></i>
+                </div>
+            </div>
+            <div class="team__items text-center col-lg-4">
+                <img class="team__img"  src="img/12.png"/>
+                <h3 class="team__items-title">Rico Massino</h3>
+                <p class="team__description">Coder</p>
+                <div class="team__icon-list d-flex align-items-center justify-content-center">
+                    <i class="team__icon-twiiter"></i>
+                    <i class="team__icon-facebook"></i>
+                </div>
+            </div>
+            <div class="team__items text-center col-lg-4">
+                <img class="team__img"  src="img/12.png"/>
+                <h3 class="team__items-title">Uko Mason</h3>
+                <p class="team__description">Graphic Designer</p>
+                <div class="team__icon-list d-flex align-items-center justify-content-center">
+                    <i class="team__icon-twiiter"></i>
+                    <i class="team__icon-facebook"></i>
+                </div>
+            </div>
+        
+        </div>    
+        <p class="team__description text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Quidem ea, harum eveniet necessitatibus ex rerum et 
+                consectetur laborum ipsum sapiente voluptate delectus iste odit 
+                hic molestiae voluptatem libero eos obcaecati.</p>
+    </div>
+</section>
+<section class="logos"></section>
+<section class="contacts" id="contacts">
+    <div class="contacts__container container d-flex flex-column align-items-center">
+    <h2 class="contacts__title">Contact us</h2>
+    <p class="contacts__decription">Lorem ipsum dolor sit amet consectetur.</p>
+    <form class="contacts__form d-flex flex-column align-items-center">
+        <div class="d-flex">
+            <div class="contacts__container-input d-flex flex-column">
+                <input class="contacts__input d-flex align-items-start" placeholder="Your Name *" type="text">
+                <input class="contacts__input d-flex align-items-start" placeholder="Your E-mail *" type="text">
+                <input class="contacts__input d-flex align-items-start" placeholder="Subject" type="text">
+            </div>
+                <textarea class="contacts__textarea "></textarea>
+        </div>
+        <input class="contacts__button" type="button" value="SEND MESSAGE">
+    </form>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer__container d-flex container">
+        <div class='footer__copy col-lg-12 d-flex justify-content-center align-items-center'>
+            © Copyright 2019 FreebiesXpress.com
+        </div>
+        
+    </div>
+</footer>
 <script src="js/all.js"></script>
 </body>
 </html>
